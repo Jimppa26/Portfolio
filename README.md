@@ -15,3 +15,9 @@ A bilingual (English / Finnish) personal portfolio website hosted on GitHub Page
 - **Design:** Based on the **Photon** template by HTML5 UP (@ajlkn)
 - **Icons:** Font Awesome
 - **License:** Distributed under the Creative Commons Attribution 3.0 Unported (CC BY 3.0) license
+
+## Updates
+### 2026-18-10
+- Changed website theme
+- Changed language-switch button style
+- Changed photos

@@ -117,7 +117,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent !important;
-			color: #6bd4c8;
+			color: #2a5298;
 		}
 
 	strong, b {
@@ -2038,7 +2038,7 @@ input, select, textarea {
 	}
 
 		header.major:after {
-			background: rgba(144, 144, 144, 0.5);
+			background: rgba(255, 255, 255, 0.5);
 			content: '';
 			display: inline-block;
 			height: 1px;
@@ -2081,7 +2081,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: rgba(144, 144, 144, 0.075);
+		background: rgba(255, 255, 255, 0.075);
 		border-radius: 4px;
 		border: none;
 		border: solid 1px rgba(144, 144, 144, 0.5);
@@ -2106,7 +2106,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #6bd4c8;
+			border-color: #1e3a68;
 		}
 
 	select {
@@ -2211,7 +2211,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #6bd4c8;
+			border-color: rgba(255, 255, 255, 0.5)
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2823,12 +2823,13 @@ input, select, textarea {
 		}
 
 		.main.style2 {
-			background-color: #333;
-			color: rgba(255, 255, 255, 0.75);
-			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
-			background-size: auto,							cover;
-		}
+    		background-color: #0a0c0e;
+    		color: rgba(152, 176, 235, 0.75);
+    		background-attachment: fixed, fixed, fixed;
+    		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #1e3a68 0%, #14284b 45%, #0b152a 80%, #050a14 100%);
+    		background-position: top left, center center, center center;
+   			background-size: auto, cover, cover;
+			}
 
 			.main.style2 a {
 				border-bottom-color: rgba(255, 255, 255, 0.5);
@@ -2914,10 +2915,10 @@ input, select, textarea {
 
 	#header {
 		padding: 9em 0 9em 0 ;
-		background-color: #4686a0;
+		background-color: #1e3a68;
 		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		background-attachment: scroll,							scroll,							scroll;
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #1e3a68 0%, #14284b 45%, #0b152a 80%, #050a14 100%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
@@ -2977,7 +2978,7 @@ input, select, textarea {
 			#header .button.primary {
 				background-color: #ffffff;
 				box-shadow: inset 0 0 0 1px #ffffff !important;
-				color: #4686a0 !important;
+				color: #1e3a68 !important;
 			}
 
 				#header input[type="submit"].primary:hover,
@@ -3109,11 +3110,9 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 6em 0 6em 0 ;
-		background-color: #4686a0;
+		padding: 0.7em 0 0.7em 0 ;
+		background-color: #051e28;
 		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
@@ -3171,7 +3170,7 @@ input, select, textarea {
 			#footer .button.primary {
 				background-color: #ffffff;
 				box-shadow: inset 0 0 0 1px #ffffff !important;
-				color: #4686a0 !important;
+				color: #1e3a68 !important;
 			}
 
 				#footer input[type="submit"].primary:hover,
@@ -3510,3 +3509,36 @@ input, select, textarea {
 			}
 
 	}
+/*Language-switch pos*/
+.language-switch {
+	position: absolute;
+	top: 1.5em;
+	left: 1.5em;
+	z-index: 10000;
+}
+
+/*Language-switch size*/
+.language-switch .button {
+	padding: 0 1em !important;
+	height: 2.25em !important;
+	line-height: 2.25em !important;
+	font-size: 0.8em !important;
+}
+/*Language-switch colors*/
+.language-switch .button {
+	background-color: #1e3a68 !important;
+	color: #ffffff !important;
+	border-color: #1e3a68 !important;
+	box-shadow: none !important;
+}
+/*Language-switch hover colors*/
+.language-switch .button:hover {
+	background-color: #2a5298 !important;
+	color: #ffffff !important;
+}
+/*Primary btn colors*/
+.language-switch .button.primary {
+	background-color: #ffffff !important;
+	color: #050a14 !important;
+	border-color: #1e3a68 !important;
+}

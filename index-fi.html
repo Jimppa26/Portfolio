@@ -13,15 +13,29 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
+
 		<div class="language-switch">
-    		<a href="index.html">EN</a> | <strong>FI</strong>
+    		<a href="index-fi.html" class="button small primary">FI</a>
+			<a href="index.html" class="button small">EN</a>
 		</div>
+
+		<script>
+			function changeLanguage(lang) 
+			{
+				if (lang == 'en') {
+					window.location.href = 'index.html'; //Englannin kielisekis
+				} else if (lang == 'fi') {
+					window.location.href = 'index-fi.html' //Suomen kieliseksi
+				}
+			}
+		</script>
 		
 		<!-- Header -->
 			<section id="header">
 				<div class="inner">
-					<span class="icon solid major fa-cloud"></span>
-					<h1>Terve! Olen <strong>Jim</strong><br />
+					<span class="icon solid major fa-user-circle"></span>
+					<h1>Terve!<br />
+						Olen <strong>Jim</strong><br />
 					Turvallisuusalan ammatilainen & ICT-insinööriopiskelija.</h1>
 					<p>Tästä löydät katsauksen projekteihini ja osaamiseeni.</p>
 					<ul class="actions special">
@@ -44,7 +58,7 @@
 						</p>
 						</div>
 						<div class="col-6 col-12-medium imp-medium">
-							<span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
+							<span class="image fit"><img src="images/syyskuvajim.jpeg" alt="" /></span>
 						</div>
 					</div>
 				</div>
@@ -85,29 +99,58 @@
 					<p>Tässä on katsaus viimeaikaisista projekteistani.</p>
 					<div class="row gtr-150">
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
-							<h3>Projekti 1</h3>
-							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+							<span class="image fit"><img src="images/bg1.jpeg" alt="" /></span>
+							<h3>Tulossa pian...</h3>
+							<p>Suunnittelemassa ja ideoimassa tulevia projekteja.<br />
+								Päivityksiä tulossa!</p>
 							<ul class="actions special">
 								<li><a href="#" class="button">Lisää</a></li>
 							</ul>
 						</div>
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/pic03.jpg" alt="" /></span>
-							<h3>Projekti 2</h3>
-							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+							<span class="image fit"><img src="images/bg2.jpeg" alt="" /></span>
+							<h3>Tulossa pian...</h3>
+							<p>Suunnittelemassa ja ideoimassa tulevia projekteja.<br />
+								Päivityksiä tulossa!</p>
 							<ul class="actions special">
 								<li><a href="#" class="button">Lisää</a></li>
 							</ul>
 						</div>
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
-							<h3>Projekti 3</h3>
-							<p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+							<span class="image fit"><img src="images/bg3.jpeg" alt="" /></span>
+							<h3>Tulossa pian...</h3>
+							<p>Suunnittelemassa ja ideoimassa tulevia projekteja.<br />
+								Päivityksiä tulossa!</p>
 							<ul class="actions special">
 								<li><a href="#" class="button">Lisää</a></li>
 							</ul>
 						</div>
+						<!---
+						<div class="col-4 col-12-medium">
+							<span class="image fit"><img src="images/bg1.jpeg" alt="" /></span>
+							<h3>Coming soon...</h3>
+							<p>Currently brainstorming and planning future projects. Check back soon for updates!</p>
+							<ul class="actions special">
+								<li><a href="#" class="button">More</a></li>
+							</ul>
+						</div>
+						<div class="col-4 col-12-medium">
+							<span class="image fit"><img src="images/bg3.jpeg" alt="" /></span>
+							<h3>Coming soon...</h3>
+							<p>Currently brainstorming and planning future projects. Check back soon for updates!</p>
+							<ul class="actions special">
+								<li><a href="#" class="button">More</a></li>
+							</ul>
+						</div>
+						<div class="col-4 col-12-medium">
+							<span class="image fit"><img src="images/bg2.jpeg" alt="" /></span>
+							<h3>Coming soon...</h3>
+							<p>Currently brainstorming and planning future projects. Check back soon for updates!</p>
+							<ul class="actions special">
+								<li><a href="#" class="button">More</a></li>
+							</ul>
+						</div>
+						-->
 					</div>
 				</div>
 			</section>

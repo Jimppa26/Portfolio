@@ -18,11 +18,16 @@ A bilingual (English / Finnish) personal portfolio website hosted on GitHub Page
 ---
 ## Updates
 
-### 2026-18-10
+### 2026-10-20
+**Changed:**
+- Added "My Career Journey" section with photos.
+- Changed main.style1 to fit the theme better.
+
+### 2026-10-18
 **Changed:**
  - website theme
  - Changed language-switch button style
  - Changed photos
 
 **AI Assistance:**
-- Gemini (Used as a sparring partner in website customization and in coding) 
+- Gemini: Used AI to help explain code, understandin CSS and word to sections better.

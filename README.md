@@ -17,6 +17,9 @@ A bilingual (English / Finnish) personal portfolio website hosted on GitHub Page
 - **License:** Distributed under the Creative Commons Attribution 3.0 Unported (CC BY 3.0) license
 ---
 ## Updates
+### 2026-10-27
+**ADDED:**
+- Added a local-ai to projects.
 
 ### 2026-10-20
 **Changed:**
